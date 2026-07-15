@@ -24,6 +24,9 @@ Chronological call transcripts/summaries, most useful read in order:
 - `wcag-aa-qa-checklist.md` — Full text transcription of Kent's WCAG 2.2 AA QA checklist (target conformance level for this project), split into what E3 specs vs. what's Codal/build-only, plus the three-checkpoint QA process (style guide review → component build review → final site QA) and recommended free tools at each stage.
 - `screenshots/` — Original screenshots the checklist was transcribed from (kept for visual/layout reference). Original source link (`links.elementthree.com/a/kent-wcag-aa-qa-checklist/`) redirect-loops when fetched directly — use the transcription or screenshots instead.
 
+### `current-site/`
+- Content scrape of the live kentww.com site (2026-07-15) — page-by-page copy from the homepage, Who We Are, Innovation, Sustainability, Brands, News, Careers, Contact, and Supplier Central. Baseline for what content already exists vs. what the content outlines need to add, cut, or rewrite. See `current-site/README.md` for scrape notes and known gaps (e.g. brand order differs from the redesign's planned order, only page 1 of News was captured).
+
 ### `project-management/`
 - `KCO2600_Decision_Chart_DACI.csv` — Finalized DACI chart (Driver / Approver / Contributor / Informed) by activity and by page/business unit. **Johnnie Arnett is Approver on nearly every line item.** Contributor groups by page:
   - 100-Year Timeline → Rich, Tiffany
