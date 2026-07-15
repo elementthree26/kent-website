@@ -2,7 +2,7 @@
 
 Working repo for KCO2600 — Kent Worldwide (kentww.com) website refresh ahead of the company's 100-year anniversary (Jan 2027). Element Three (E3) owns design, functional specs, wireframes, content outlines, and copywriting; Codal is Kent's development/build partner executing the WordPress replatform.
 
-This repo currently holds **reference material only** — source documents used to inform the design/content deliverables (style guide, wireframes, content outlines, discovery guides, functional specs). Nothing here is a client-facing deliverable yet.
+This repo holds two kinds of content: `/reference` (source documents used to inform the design/content deliverables — brand book, briefs, transcripts, current-site scrape) and `/deliverables` (working drafts of the actual design/content deliverables — discovery guides, content outlines, style guide, functional specs). Everything in `/deliverables` is a draft in progress until it's been through client review — check the status line at the top of each file.
 
 ## `/reference` contents
 
@@ -47,3 +47,8 @@ Chronological call transcripts/summaries, most useful read in order:
 - No lead-gen functionality on kentww.com.
 - 100-year timeline content should start from the ~15 milestones already in the brand book, supplemented by Heritage Works' master chronology if more depth/breadth is needed.
 - Photography (new family/GPC shoot, archival Heritage Works pulls) is **out of E3's current scope** unless separately flagged and approved.
+
+## `/deliverables` contents
+
+### `discovery-guides/`
+- `brands-and-solutions-discovery-guide.md` — Facilitator's script for the combined Brands + Solutions discovery session (one session covers both pages per the DACI chart). Covers session logistics/contributor list, current-state summary pulled from `reference/current-site/`, decisions already locked in, and open discussion questions per page. **Draft** — not yet reviewed internally or scheduled with the client.
